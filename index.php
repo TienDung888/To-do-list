@@ -24,12 +24,12 @@ if ($name !== null) $_SESSION['name'] = $name;
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Productivity</a>
+        <a href="#" class="logo">Nơi giúp bạn đỡ lười</a>
         <nav>
-            <a href="#" class="home">Home</a>
-            <a href="#" class="todo-link">To-do list</a>
-            <a href="#" class="wea-ther">Weather</a>
-            <a href="#" class="contact">Contact</a>
+            <a href="#" class="home">Trang chủ</a>
+            <a href="#" class="todo-link">Việc cần làm</a>
+            <a href="#" class="wea-ther">Thời tiết</a>
+            <a href="#" class="contact">Liên hệ</a>
                 <div class="con-tact">
                     <p>0967236791</p>
                     <p>khieuhuutiendung@gmail.com</p>
@@ -59,7 +59,7 @@ if ($name !== null) $_SESSION['name'] = $name;
             <div id="error-message" style="color: red; display: none;"></div>
             <ul id="list-container"></ul>
         </div>
-        <h2 class="hi">Hi <?php echo $name?? 'user' ?>!!!</h2>
+        <h2 class="hi">Hi <?php echo $name?? 'thằng lười, đăng ký đi cu' ?>!!!</h2>
 
     <div class="quote-box">
         <h2>Quote of the day</h2>
@@ -91,7 +91,7 @@ if ($name !== null) $_SESSION['name'] = $name;
                     <img src="wind.png">
                     <div>
                         <p class="wind">15 km/h</p>
-                        <p>Wind</p>
+                        <p>Wind Speed</p>
                     </div>
                 </div>
             </div>
