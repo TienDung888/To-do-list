@@ -84,14 +84,14 @@ if ($name !== null) $_SESSION['name'] = $name;
                     <img src="humidity.png">
                     <div>
                         <p class="humidity">50%</p>
-                        <p>Humidity</p>
+                        <p>Độ ẩm</p>
                     </div>
                 </div>
                 <div class="col">
                     <img src="wind.png">
                     <div>
                         <p class="wind">15 km/h</p>
-                        <p>Wind Speed</p>
+                        <p>Tốc độ gió</p>
                     </div>
                 </div>
             </div>
