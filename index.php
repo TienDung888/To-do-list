@@ -62,11 +62,11 @@ if ($name !== null) $_SESSION['name'] = $name;
         <h2 class="hi">Hi <?php echo $name?? 'thằng lười, đăng ký đi cu' ?>!!!</h2>
 
     <div class="quote-box">
-        <h2>Quote of the day</h2>
-        <blockquote id="quote">Loading...</blockquote>
+        <h2>Đạo lý</h2>
+        <blockquote id="quote">Đợi tý đm...</blockquote>
         <span id="author">Loading...</span>
         <div>
-            <button onclick="getquote(api_url)">New quote</button>
+            <button onclick="getquote(api_url)">Đạo lý mới</button>
         </div>
     </div>    
         
