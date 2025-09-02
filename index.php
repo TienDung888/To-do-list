@@ -50,7 +50,7 @@ if ($name !== null) $_SESSION['name'] = $name;
     </header>
     <div class="container">
         <div class="todo-app">
-            <h1>To-do list <img src="icon.png" alt="To-do icon"></h1>
+            <h1>Danh sách công việc <img src="icon.png" alt="To-do icon"></h1>
             <div class="row">
                 <input type="text" id="input-box" placeholder="Add your text">
                 <button onclick="addTask()" id="btn-1">Add</button>
